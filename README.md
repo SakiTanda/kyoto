@@ -1,4 +1,4 @@
-# kyoto
+# Kyoto
 Kyoto helps promote and encourage tourism throughout the city of Kyoto and to provide visitors with explicit information regarding the many cultural events, sights and foods that can be experienced in Kyoto.
 This web application is developed by PHP, MySQL, html, etc.
 
