@@ -1,0 +1,122 @@
+/************* for login/logout/signup pages **************/
+
+/**** Sign up page ****/
+#newsLetter {
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+}
+#newsLetter input {
+  width: 20px;
+  margin-left: 10px;
+}
+
+/******* shared settings **********/
+#form-content {
+  width: 50%;
+  margin: 100px auto;
+  background-color: #F7F4ED;
+  border: 5px solid;
+  text-align: center;
+}
+#form-content_title {
+  font-size: 50px;
+  margin: 0 0 20px 0;
+  padding-bottom: 13px;
+  background-color: #6E1519;
+  color:white;
+}
+form {
+  width: 70%;
+  margin: auto;
+}
+input {
+  width: 99%;
+  margin: 8px 0;
+  font-size: 18px;
+}
+.invalidForm {
+  border:1px solid red;
+}
+#form-button-area {
+  text-align: right;
+}
+#form-button {
+  width: 100px;
+  height: 35px;
+  margin: 5px 0;
+  background-color: #6E1519;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+#form-button:hover {
+  background-color: white;
+  color: #6E1519;
+  border: 1px solid #6E1519;
+  text-decoration: none;
+}
+.error {
+  display: block;
+  text-align: left;
+  color: red;
+  margin: 8px 0 0 0;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: arial narrow;
+}
+.nonError {
+  display: none;
+}
+/* link */
+#lead-link {
+  text-align: right;
+  font-size: 17px;
+  margin: 20px 0 10px 0;
+  font-family: arial narrow;
+}
+#lead-link a {
+  margin: 0 0 0 10px;
+  color: #6E1519;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: arial narrow;
+}
+#lead-link a:hover {
+  opacity: 0.3;
+  text-decoration: none;
+}
+
+/********************** responsible design ***********************/
+@media screen and (max-width: 1080px){    
+  /**** shared settings ****/
+  #form-content {
+    width:70%;
+  }
+  #form-content_title {
+    font-size: 40px;
+  }
+  #leadLogin {
+    font-size:15px;
+  }
+}
+@media screen and (max-width: 640px){  
+  /**** shared settings ****/
+  #form-content_title {
+    font-size: 32px;
+  }
+  #form-content {
+    width: 85%;
+    margin-top: 120px;
+  }
+  form {
+    width: 90%;
+  }
+  #leadLogin {
+    margin-top:3px;
+  }
+}
